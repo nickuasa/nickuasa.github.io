@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(255, 135, 199);
+}
+body {
+    margin: 30px;
+}
+.text-with-outline {
+    color: rgb(255, 255, 255);
+    text-shadow: black;
+}
+a {
+    text-decoration: none;
+}
+a {
+        color: rgb(255, 255, 255);
+        text-shadow: 
+                -1px -1px 0 black,
+                 1px -1px 0 black,
+                -1px  1px 0 black,
+                 1px  1px 0 black;
+
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 
+            -1px -1px 0 black,
+             1px -1px 0 black,
+            -1px  1px 0 black,
+             1px  1px 0 black;
+
+}
+.stripe {
+    width: 100%; /* Ширина на всю страницу */
+    height: 2px; /* Высота полоски */
+    background-color: rgba(0, 0, 0, 0.318); /* Цвет полоски */
+    margin: 0px 0; /* Отступы сверху и снизу */
+}
